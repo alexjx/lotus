@@ -150,7 +150,7 @@ var sectorsListCmd = &cli.Command{
 		&cli.BoolFlag{
 			Name:    "color",
 			Aliases: []string{"c"},
-			Value:   true,
+			Value:   false,
 		},
 		&cli.BoolFlag{
 			Name:  "fast",
